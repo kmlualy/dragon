@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>flex boy</title>
+  <title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  h1 {
-  text-shadow: 2px 2px red;
-}
- p{
-  color: yellow;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 .flex-container {
   display: flex;
-  justify-content: right;
-  background-color: goldenrod;
+  background-color: DodgerBlue;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
   margin: 10px;
-  text-align: center;
-  line-height: 75px;
+  padding: 20px;
   font-size: 30px;
 }
 </style>
 </head>
 <body>
 
-<h1> The justify-content Property</h1>
+<h1>Create a Flex Container</h1>
+<h2>Pictures of cars</h2>
+<div class="flex-container">
+  <div><img src="chev.jpg"></div>
+  <div><img src="pop.jpg"></div>
+  <div><img src="kam.jpg"></div>  
+</div>
 
-<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
 
 <div class="flex-container">
-<div>K</div>
-<div>A</div>
-<div>M</div>  
-<div>A</div>
-<div>L</div>
-<div>,</div>
-<div>A</div>
-<div>L</div>
-<div>I</div>
-<div>Y</div>
-<div>U</div>
-
+  <div><img src="tua.jpg"></div>
+  <div><img src="heat.jpg"></div>
+  <div><img src="so.jpg"></div>
 </div>
+<div class="flex-container">
+  <div><img src="best.jpg"></div>
+  <div><img src="fav.jpg"></div>
+  <div><img src="fast.jpg"></div>
+</div>
+
+
+<h1>fa fa-arrow-right</h1>
+
+<i class="fa fa-arrow-right"></i>
+<i class="fa fa-arrow-right" style="font-size:24px"></i>
+<i class="fa fa-arrow-right" style="font-size:36px"></i>
+<i class="fa fa-arrow-right" style="font-size:48px;color:red"></i>
+<br>
+
+<p>Used on a button:</p>
+<button style="font-size:24px">Button <i class="fa fa-arrow-right"></i></button>
+
+<p>Unicode:</p>
+<i style="font-size:24px" class="fa">&#xf061;</i>
+
 
 </body>
 </html>
+
 
